@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_Facebook">
+
+    <fragment
+        android:id="@+id/nav_Facebook"
+        android:name="com.deepanshu.android.techapp2.ui.home.HomeFragment"
+        android:label="@string/FaceBook"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_twitter"
+        android:name="com.deepanshu.android.techapp2.ui.gallery.GalleryFragment"
+        android:label="@string/Twitter"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_google"
+        android:name="com.deepanshu.android.techapp2.ui.slideshow.SlideshowFragment"
+        android:label="@string/Goggle"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_linkedIn"
+        android:name="com.deepanshu.android.techapp2.ui.tools.ToolsFragment"
+        android:label="@string/Linkedin"
+        tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.deepanshu.android.techapp2.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.deepanshu.android.techapp2.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+</navigation>

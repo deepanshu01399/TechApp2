@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Facebook"
+            android:icon="@drawable/facebook"
+            android:title="@string/FaceBook" />
+        <item
+            android:id="@+id/nav_twitter"
+            android:icon="@mipmap/twitter"
+            android:title="@string/Twitter" />
+        <item
+            android:id="@+id/nav_google"
+            android:icon="@drawable/google"
+            android:title="@string/Goggle" />
+        <item
+            android:id="@+id/nav_linkedIn"
+            android:icon="@drawable/linkedin"
+            android:title="@string/Linkedin" />
+    </group>
+    <group android:id="@+id/menu_bottom">
+        <item
+            android:id="@+id/request_vedio"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Request a vedio" />
+        <item
+            android:id="@+id/ic_Merchandise"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="Merchandise" />
+        <item
+            android:id="@+id/aboutUs"
+            android:icon="@android:drawable/alert_light_frame"
+            android:title="AboutUs" />
+    </group>
+    <item android:title="Purchase">
+        <menu>
+
+            <item
+                android:id="@+id/nav_amazon"
+                android:icon="@drawable/amazon"
+                android:title="Amazon" />
+            <item
+                android:id="@+id/nav_flipkart"
+                android:icon="@drawable/flipcart"
+                android:title="Flipkart" />
+        </menu>
+    </item>
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_send" />
+        </menu>
+    </item>
+
+</menu>
